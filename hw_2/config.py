@@ -12,3 +12,4 @@ elif not API_WET:
     raise ValueError("API_WEATHER не установлен.")
 elif not API_TR:
     raise ValueError("API_TRAINING не установлен.")
+

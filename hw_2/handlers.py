@@ -658,3 +658,5 @@ async def start_progress(message: Message, state: FSMContext):
                                                f'Нормализация {int(logged_calories) - int(burned_calories)} калл.',
                                        parse_mode='HTML')
         await show_keyboard(a)
+
+
